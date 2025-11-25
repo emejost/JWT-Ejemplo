@@ -1,0 +1,102 @@
+## ======================================
+##   .NET / ASP.NET Core
+## ======================================
+bin/
+obj/
+out/
+artifacts/
+
+# Archivos de lock y dependencias
+project.lock.json
+project.fragment.lock.json
+
+# Archivos de usuario de Visual Studio
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Publicaciones temporales
+*.pubxml
+*.pubxml.user
+PublishProfiles/
+
+## ======================================
+##   Logs y diagnósticos
+## ======================================
+*.log
+*.tld
+*.svclog
+*.scc
+
+# Capturas del dotnet-trace o dumps
+*.dmp
+*.etl
+*.diag
+
+## ======================================
+##   Cachés y temporales
+## ======================================
+# Visual Studio
+.vs/
+.vscode/
+
+# Rider
+.idea/
+
+# Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# Cache de paquetes NuGet
+packages/
+# but keep the build folder
+!packages/build/
+
+# Otras caches
+*.cache
+*.tmp
+
+## ======================================
+##   Configuración sensible
+## ======================================
+# Secrets de ASP.NET Core
+secrets.json
+appsettings.Development.json
+appsettings.*.local.json
+
+# Certificados dev
+*.pfx
+*.p12
+
+## ======================================
+##   Archivos del sistema
+## ======================================
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+# Linux
+*~
+
+## ======================================
+##   Web / Node (si usas frontend integrado)
+## ======================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dist/
+build/
+
+## ======================================
+##   Test / Coverage
+## ======================================
+TestResults/
+coverage/
+*.coverage
+*.coveragexml
